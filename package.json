@@ -1,0 +1,44 @@
+{
+  "name": "quick.kral",
+  "version": "6.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "docs": "docgen --source src --custom docs/index.yml --output docs/docs.json",
+    "docs:test": "docgen --source src --custom docs/index.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emre37destan/quick.kral.git"
+  },
+  "homepage": "https://kral.js.org",
+  "keywords": [
+    "quick.kral",
+    "quick.db",
+    "discord",
+    "discord.js",
+    "discord.js-economy",
+    "quick.db-economy",
+    "eris-economy",
+    "framework",
+    "sqlite",
+    "discord-economy",
+    "discord-kral",
+    "discord-xp",
+    "discord-leveling",
+    "economy",
+    "leveling",
+    "kral"
+  ],
+  "author": "Dk Emre 30#8590",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emre37destan/quick.kral/issues"
+  },
+  "devDependencies": {
+    "@quick.kral/mongo": "^1.0.4",
+    "@quick.kral/mysql": "^1.0.2",
+    "@quick.kral/sqlite": "^1.0.3",
+    "discord.js-docgen": "github:discordjs/docgen"
+  }
+}
